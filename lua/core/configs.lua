@@ -42,9 +42,10 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.shortmess:append("c")
 
 -- Indent Settings
-vim.opt.expandtab = true
+--vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
+vim.opt.smarttab = true
 vim.opt.softtabstop = 2
 vim.opt.autoindent = true
 

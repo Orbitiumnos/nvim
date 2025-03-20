@@ -4,6 +4,6 @@ function SetColor(color)
 	vim.cmd.colorscheme(color)
 end
 
-SetColor("kanagawa")
--- SetColor("catppuccin")
+-- SetColor("kanagawa")
+SetColor("catppuccin")
 -- SetColor()

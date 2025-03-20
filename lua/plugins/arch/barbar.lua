@@ -9,7 +9,7 @@ return {
         local barbar = require("barbar")
 
         barbar.setup({
-            clickable = true, -- Enables/disables clickable tabs
+            clickable = false, -- Enables/disables clickable tabs
             tabpages = false, -- Enable/disables current/total tabpages indicator (top right corner)
             insert_at_end = true,
             icons = {
